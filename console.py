@@ -47,6 +47,10 @@ class HBNBCommand(cmd.Cmd):
                 print(count)
             if args[1][:3] == "all":
                 self.do_all(args[0])
+            if args[1][:4] == "show":
+                self.do_show(args[0] + " " + args[1][6: -2])
+            if args[1][:7] == "destroy":
+                self.do_destroy(args[0] + " " + args[1][9: -2])
         else:
             print('*** Unknown syntax:', line)
 
