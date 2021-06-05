@@ -43,7 +43,6 @@ h4 {
 }
 .amenities {
     height: 100%;
-    width: 25%;
-    border-right: 1px solid #dddddd;
+    width: 25%;   
     padding-left: 30px;
 }
