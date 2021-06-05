@@ -32,6 +32,13 @@
 .locations:hover .popover{
     display: block;   
 }
+.amenities {
+    height: 100%;
+    width: 25%;
+}
+.amenities:hover .popover{
+    display: block; 
+}
 h2 {
     margin-bottom: 0px;
 }
@@ -47,14 +54,6 @@ h4 {
     font-size: 14px;
     margin-top: 0px;
     padding-left: 30px;
-}
-.amenities {
-    height: 100%;
-    width: 25%;
-    border-right: 1px solid #dddddd;
-}
-.amenities:hover .popover{
-    display: block; 
 }
 .popover {
     background-color: #fafafa;
@@ -72,6 +71,10 @@ h4 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+.locations .popover {
+    padding-bottom: 40px;
+    
+}
 .amenities .popover li {
     margin-left: 15px;
     margin-top: 10px;
@@ -79,7 +82,4 @@ h4 {
 }
 .amenities .popover li:nth-child(1) {
     margin-top: 30px;
-}
-.amenities .popover li:last-child {
-    margin-bottom: 30px;
 }
